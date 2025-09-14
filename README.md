@@ -19,7 +19,7 @@ This project implements a hybrid log classification system, combining three comp
    - Used for handling complex patterns when sufficient labeled training data is not available.
    - Provides a fallback or complementary approach to the other methods.
 
-![architecture](resources/arch.png)
+![architecture](https://github.com/mayurk96/Log-classification-system---AI-based/blob/59430b7a417f62eb46a1647dd8622464b445dfe7/arch.png)
 
 ---
 
