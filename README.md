@@ -1,30 +1,29 @@
-# Log-classification-system---AI-based
 # AI-Powered Hybrid Log Classification System
 
-An AI-driven log classification system designed to automatically categorize application and system logs using a hybrid combination of rule-based classification, semantic machine learning, and Large Language Models (LLMs).
+> An intelligent log classification platform that combines rule-based pattern matching, semantic machine learning, and LLM-based classification to process application and system logs.
+
+---
 
 ## Overview
 
-Modern applications generate thousands of log messages containing errors, warnings, system events, and operational information. Manually analyzing these logs can be time-consuming and difficult to scale.
+Modern applications generate large volumes of logs from different sources, making manual analysis difficult and time-consuming.
 
-This project provides an automated classification pipeline that combines multiple approaches to identify and categorize log messages efficiently.
+This project implements a hybrid log classification pipeline that combines multiple classification techniques to handle both predictable and complex log patterns.
 
-### Classification Pipeline
+The system uses:
 
-```text
-                         Log Message
-                              |
-                              v
-                    +-------------------+
-                    | Log Classification |
-                    +---------+---------+
-                              |
-              +---------------+---------------+
-              |               |               |
-              v               v               v
-        Regex Engine    Transformer + ML    LLM Classifier
-              |               |               |
-              +---------------+---------------+
-                              |
-                              v
-                     Classification Result
+- Regex-based classification for known patterns
+- Sentence Transformer embeddings for semantic classification
+- Logistic Regression for supervised prediction
+- LLM-based classification for ambiguous log messages
+- FastAPI for exposing the classification pipeline through REST APIs
+
+The hybrid architecture allows the system to use lightweight deterministic rules for known patterns while leveraging machine learning and language models for more complex logs.
+
+---
+
+<h2>System Architecture</h2>
+
+<p align="center">
+  <img src="architechture.png" alt="Hybrid Log Classification Architecture" width="700">
+</p>
