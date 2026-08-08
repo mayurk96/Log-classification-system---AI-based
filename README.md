@@ -1,9 +1,9 @@
 # Log-classification-system---AI-based
-# Log Cla# AI-Powered Hybrid Log Classification System
+# AI-Powered Hybrid Log Classification System
 
 An AI-driven log classification system designed to automatically categorize application and system logs using a hybrid combination of rule-based classification, semantic machine learning, and Large Language Models (LLMs).
 
-## 🚀 Overview
+## Overview
 
 Modern applications generate thousands of log messages containing errors, warnings, system events, and operational information. Manually analyzing these logs can be time-consuming and difficult to scale.
 
